@@ -1,0 +1,23 @@
+html, body {
+  background: #222 url('') center center no-repeat;
+  background-size: cover;
+  color: white
+}
+
+#chart1 {
+  max-width: 650px;
+  margin: 35px auto;
+}
+
+.column {
+  float: left;
+  padding-left: 150px;
+  width: 33.33%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
