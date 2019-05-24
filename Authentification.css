@@ -1,0 +1,50 @@
+html,
+body{
+ height: 100%;
+}
+
+#cover:not(#ef) {
+  background: #222 url('') center center no-repeat;
+  background-size: cover;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+#cover-caption {
+  width: 100%;
+}
+
+.needs-validation input[type=text], .needs-validation input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background:white;
+}
+
+  .needs-validation input[type=text]:focus, .needs-validation input[type=password]:focus {
+    background-color: #e6e6e6;
+    outline: none;
+}
+
+.needs-validation input[type=text], .needs-validation input[type=email] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background:white;
+}
+
+  .needs-validation input[type=text]:focus, .needs-validation input[type=email]:focus {
+    background-color: #e6e6e6;
+    outline: none;
+}
+
+.slika
+{
+    width: 200px;
+    height: 200px;
+    margin-bottom: 10px;
+}

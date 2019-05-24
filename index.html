@@ -12,7 +12,7 @@
 
     <title>Pametna farma</title>
   </head>
-  <body>
+  <body onload="getData()">
     <div id="chart">
     </div>
     <div id="chart1">
@@ -20,15 +20,15 @@
 <div class="row">
   <div class="column">
     <p>Temperatura</p>
-    <h2>23 °C</h2>
+    <h2 id = "temp"></h2>
   </div>
   <div class="column">
     <p>Vazdusni pritisak</p>
-    <h2>1005.8 mb</h2>
+    <h2 id = "vap">1005.8 mb</h2>
   </div>
   <div class="column">
     <p>Vlaznost vazduha:</p>
-    <h2>91 g/m³</h2>
+    <h2 id = "vla"></h2>
   </div>
 </div>
   <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
