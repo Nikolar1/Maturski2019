@@ -31,7 +31,7 @@ function uradi() {
   var r = JSON.parse(sessionStorage.getItem("token"));
 
   if(r.success) {
-    window.location.href = "./index.html"
+    window.location.href = "./index1.html"
   }
   else {
     alert(r.message);
@@ -39,7 +39,7 @@ function uradi() {
 }
 
 function Send() {
-  var url = 'http://localhost:3000/Authentification';
+  var url = 'https://maturski2019-backend.herokuapp.com/Authentification';
   var email = document.getElementById("email_field").value;
   var pass = document.getElementById("password_field").value;
   var data = {EMAIL: email, PASS: pass};

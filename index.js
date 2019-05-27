@@ -12,7 +12,7 @@ var Tajmer = setInterval(getData, 60000);
 
 
 function getData() {
-    var url = 'http://localhost:3000';
+    var url = 'https://maturski2019-backend.herokuapp.com/';
     var token = JSON.parse(sessionStorage.getItem("token"));
     fetch(url, {
     method: "GET",
